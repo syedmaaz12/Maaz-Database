@@ -1,0 +1,9 @@
+CREATE TABLE Maaz(
+  id INT,
+  Name varchar(20),
+  Age INT,
+  Grade Varchar(5)
+);
+INSERT INTO Maaz (Id,Name,Age,Grade)
+VALUES (1,'Maaz',19,'A');
+SELECT Name, Grade FROM Maaz;
